@@ -1,6 +1,15 @@
 name: movie-reco
 channels:
-  - defaults
+  - conda-forge
 dependencies:
   - python=3.11
-prefix: /home/hugogt/anaconda3/envs/movie-reco
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - nltk
+  - scikit-surprise
+  - ipykernel
+  - nbconvert
